@@ -1,7 +1,7 @@
 import express from "express";
 import type { Request, Response } from "express";
 const app = express();
-const PORT = 3000;
+const PORT = 8000;
 
 // Middleware to parse JSON bodies
 app.use(express.json());
